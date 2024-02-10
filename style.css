@@ -135,7 +135,7 @@ select, .list input{
     font-family: Montserrat;
 }
 @media screen and (min-width:800px) {
-    /* body{
+    body{
         display: none;
-    } */
+    } 
 }
