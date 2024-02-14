@@ -8,6 +8,18 @@ body{
     background: rgb(253, 246, 228);
 }
 
+.logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #8f45ff;
+    border: 1px solid black;
+    font-family: Gabarito;
+}
+
+
 .table{
     width: 95vw;
     margin: 50px auto;
