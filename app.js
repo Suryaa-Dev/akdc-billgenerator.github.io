@@ -16,16 +16,20 @@ function addFuntionalityTo(tableNumber){
                     <option value="100">Manchurian(Full)</option>
                     <option value="60">Veg Crispy(Half)</option>
                     <option value="120">Veg Crispy(Full)</option>
-                    <option value="60">Veg Chilli(Half)</option>
-                    <option value="120">Veg Chilli(Full)</option>
-                    <option value="60">Veg 65(Half)</option>
-                    <option value="120">Veg 65(Full)</option>
+                    <option value="60">Tadka Manchurian(Half)</option>       
+                    <option value="120">Tadka Manchurian(Full)</option>
+                    <option value="70">Veg Chilli(Half)</option>
+                    <option value="140">Veg Chilli(Full)</option>
+                    <option value="70">Veg 65(Half)</option>
+                    <option value="140">Veg 65(Full)</option>
                     <option value="70">Gravy Manchurian(Half)</option>
                     <option value="140">Gravy Manchurian(Full)</option>
                 </optgroup>
                 <optgroup label="Noodles">
                     <option value="60">Manchurian Noodles(Half)</option>
                     <option value="120">Manchurian Noodles(Full)</option>
+                    <option value="70">Combination(Half)</option>
+                    <option value="140">Combination(Full)</option>
                     <option value="70">Singapur Noodles(Half)</option>
                     <option value="140">Singapur Noodles(Full)</option>
                     <option value="90">Triple Noodles(Half)</option>
@@ -38,6 +42,8 @@ function addFuntionalityTo(tableNumber){
                     <option value="140">Singapur Rice(Full)</option>
                     <option value="90">Triple Rice(Half)</option>
                     <option value="180">Triple Rice(Full)</option>
+                    <option value="50">Jira Rice(Half)</option>
+                    <option value="100">Jira Rice(Full)</option>
                 </optgroup>    
                 <optgroup label="Paneer Items">
                     <option value="80">Panner Manchurian(Half)</option>       
@@ -46,10 +52,15 @@ function addFuntionalityTo(tableNumber){
                     <option value="170">Paneer Chilli(Full)</option>
                     <option value="90">Paneer 65(Half)</option>
                     <option value="170">Paneer 65(Full)</option>
+                    <option value="80">Panner Rice(Half)</option>       
+                    <option value="160">Paneer Rice(Full)</option>
+                    <option value="80">Panner Noodles(Half)</option>       
+                    <option value="160">Paneer Noodles(Full)</option>
                 </optgroup>
                 <optgroup label="Soups & other">
                     <option value="40">Soup (Half)</option>
                     <option value="80">Soup (Full)</option> 
+                    <option value="100">Tomato Soup (Full)</option> 
                     <option value="100">Chinese Bhel(Full)</option>
                 </optgroup>
             </select>
@@ -77,20 +88,21 @@ function addFuntionalityTo(tableNumber){
                 <option value="10">Extra Pav(Single)</option>  
                 <option value="80">Special Pavbhaji</option>
                 <option value="80">Kolhapuri Pavbhaji</option>
+                <option value="50">Only bhaji</option>
                 <option value="70">Masala Pav</option>
 
                 <option value="10">Cold Drink(10)</option>
                 <option value="20">Cold Drink(20)</option>
                 <option value="25">Cold Drink(25)</option>
                 <option value="40">Cold Drink(45)</option>
-                <option value="15">Ice Cream(15)</option>
-                <option value="20">Ice Cream(20)</option>
-                <option value="25">Ice Cream(25)</option>
-                <option value="30">Ice Cream(30)</option>
-                <option value="35">Ice Cream(35)</option>
-                <option value="40">Ice Cream(40)</option>
-                <option value="45">Ice Cream(45)</option>
-                <option value="50">Ice Cream(50)</option>
+                <option value="15">Ice-Cream(15)</option>
+                <option value="20">Ice-Cream(20)</option>
+                <option value="25">Ice-Cream(25)</option>
+                <option value="30">Ice-Cream(30)</option>
+                <option value="35">Ice-Cream(35)</option>
+                <option value="40">Ice-Cream(40)</option>
+                <option value="45">Ice-Cream(45)</option>
+                <option value="50">Ice-Cream(50)</option>
             </select>
             <p class="item_rate">0</p>
             <input type="text" inputmode="numeric" class="item_quantity">
