@@ -16,6 +16,8 @@ body{
     background-color:#7114fd;
     border: 1px solid black;
     font-family: Gabarito;
+    display: flex;
+    flex-direction: column;
 }
 
 
