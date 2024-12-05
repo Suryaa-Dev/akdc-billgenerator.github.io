@@ -73,16 +73,17 @@ function addFuntionalityTo(tableNumber){
         newList.innerHTML = `
             <select class="item_name"> 
                 <option value="0">Select the Option</option>  
-                <option value="25">Dabeli</option>  
-                <option value="70">Pavbhaji</option>  
-                <option value="20">Extra Pav(Jodi)</option>
-                <option value="10">Extra Pav(Single)</option>
-                <option value="100">French Fries</option>
-                <option value="100">Special Pavbhaji</option>
-                <option value="100">Kolhapuri Pavbhaji</option>
-                <option value="60">Only bhaji</option>
-                <option value="80">Masala Pav</option>
-
+                <optgroup label="Dabeli and Pavbhaji">
+                    <option value="25">Dabeli</option>  
+                    <option value="70">Pavbhaji</option>  
+                    <option value="20">Extra Pav(Jodi)</option>
+                    <option value="10">Extra Pav(Single)</option>
+                    <option value="100">French Fries</option>
+                    <option value="100">Special Pavbhaji</option>
+                    <option value="100">Kolhapuri Pavbhaji</option>
+                    <option value="60">Only bhaji</option>
+                    <option value="80">Masala Pav</option>
+                </optgroup>
                 <optgroup label="Paneer Items">
                     <option value="90">Panner Manchurian(Half)</option>       
                     <option value="180">Paneer Manchurian(Full)</option>
@@ -105,17 +106,18 @@ function addFuntionalityTo(tableNumber){
                     <option value="110">Panner Singapur Noodles(Half)</option>       
                     <option value="220">Paneer Singapur Noodles(Full)</option>
                 </optgroup>
-
-                <option value="10">Cold Drink(10)</option>
-                <option value="20">Cold Drink(20)</option>
-                <option value="25">Cold Drink(25)</option>
-                <option value="45">Cold Drink(45)</option>
-                <option value="15">Ice-Cream(15)</option>
-                <option value="20">Ice-Cream(20)</option>
-                <option value="25">Ice-Cream(25)</option>
-                <option value="30">Ice-Cream(30)</option>
-                <option value="35">Ice-Cream(35)</option>
-                <option value="40">Ice-Cream(40)</option>
+                <optgroup label="Cold Section">
+                    <option value="10">Cold Drink(10)</option>
+                    <option value="20">Cold Drink(20)</option>
+                    <option value="25">Cold Drink(25)</option>
+                    <option value="45">Cold Drink(45)</option>
+                    <option value="15">Ice-Cream(15)</option>
+                    <option value="20">Ice-Cream(20)</option>
+                    <option value="25">Ice-Cream(25)</option>
+                    <option value="30">Ice-Cream(30)</option>
+                    <option value="35">Ice-Cream(35)</option>
+                    <option value="40">Ice-Cream(40)</option>
+                </optgroup>
             </select>
             <p class="item_rate">0</p>
             <input type="text" inputmode="numeric" class="item_quantity">
