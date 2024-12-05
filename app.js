@@ -12,56 +12,48 @@ function addFuntionalityTo(tableNumber){
             <select class="item_name"> 
                 <option value="0">Select the Option</option>     
                 <optgroup label="Manchurian">   
-                    <option value="50">Manchurian(Half)</option>       
-                    <option value="100">Manchurian(Full)</option>
-                    <option value="60">Veg Crispy(Half)</option>
-                    <option value="120">Veg Crispy(Full)</option>
-                    <option value="60">Tadka Manchurian(Half)</option>       
-                    <option value="120">Tadka Manchurian(Full)</option>
+                    <option value="60">Manchurian(Half)</option>       
+                    <option value="120">Manchurian(Full)</option>
+                    <option value="70">Veg Crispy(Half)</option>
+                    <option value="140">Veg Crispy(Full)</option>
+                    <option value="70">Tadka Manchurian(Half)</option>       
+                    <option value="140">Tadka Manchurian(Full)</option>
                     <option value="70">Veg Chilli(Half)</option>
                     <option value="140">Veg Chilli(Full)</option>
                     <option value="70">Veg 65(Half)</option>
                     <option value="140">Veg 65(Full)</option>
-                    <option value="70">Gravy Manchurian(Half)</option>
-                    <option value="140">Gravy Manchurian(Full)</option>
+                    <option value="80">Gravy Manchurian(Half)</option>
+                    <option value="160">Gravy Manchurian(Full)</option>
                 </optgroup>
                 <optgroup label="Noodles">
-                    <option value="60">Manchurian Noodles(Half)</option>
-                    <option value="120">Manchurian Noodles(Full)</option>
+                    <option value="70">Manchurian Noodles(Half)</option>
+                    <option value="140">Manchurian Noodles(Full)</option>
                     <option value="70">Combination(Half)</option>
                     <option value="140">Combination(Full)</option>
-                    <option value="70">Singapur Noodles(Half)</option>
-                    <option value="140">Singapur Noodles(Full)</option>
-                    <option value="90">Triple Noodles(Half)</option>
-                    <option value="180">Triple Noodles(Full)</option>
+                    <option value="80">Singapur Noodles(Half)</option>
+                    <option value="160">Singapur Noodles(Full)</option>
+                    <option value="100">Triple Noodles(Half)</option>
+                    <option value="200">Triple Noodles(Full)</option>
                 </optgroup>
                 <optgroup label="Rice">
                     <option value="60">Manchurian Rice(Half)</option>
                     <option value="120">Manchurian Rice(Full)</option>
-                    <option value="70">Singapur Rice(Half)</option>
-                    <option value="140">Singapur Rice(Full)</option>
-                    <option value="90">Triple Rice(Half)</option>
-                    <option value="180">Triple Rice(Full)</option>
+                    <option value="80">Singapur Rice(Half)</option>
+                    <option value="160">Singapur Rice(Full)</option>
+                    <option value="100">Triple Rice(Half)</option>
+                    <option value="200">Triple Rice(Full)</option>
                     <option value="50">Jira Rice(Half)</option>
                     <option value="100">Jira Rice(Full)</option>
                 </optgroup>    
-                <optgroup label="Paneer Items">
-                    <option value="80">Panner Manchurian(Half)</option>       
-                    <option value="160">Paneer Manchurian(Full)</option>
-                    <option value="90">Paneer Chilli(Half)</option>
-                    <option value="170">Paneer Chilli(Full)</option>
-                    <option value="90">Paneer 65(Half)</option>
-                    <option value="170">Paneer 65(Full)</option>
-                    <option value="80">Panner Rice(Half)</option>       
-                    <option value="160">Paneer Rice(Full)</option>
-                    <option value="80">Panner Noodles(Half)</option>       
-                    <option value="160">Paneer Noodles(Full)</option>
-                </optgroup>
+
                 <optgroup label="Soups & other">
-                    <option value="40">Soup (Half)</option>
-                    <option value="80">Soup (Full)</option> 
+                    <option value="50">Soup (Half)</option>
+                    <option value="100">Soup (Full)</option> 
+                    <option value="70">Paneer Soup (Half)</option>
+                    <option value="140">Paneer Soup (Full)</option> 
                     <option value="100">Tomato Soup (Full)</option> 
-                    <option value="100">Chinese Bhel(Full)</option>
+                    <option value="120">Chinese Bhel(Full)</option>
+                    <option value="20">Jain Charges</option>
                 </optgroup>
             </select>
             <p class="item_rate">0</p>
@@ -81,28 +73,49 @@ function addFuntionalityTo(tableNumber){
         newList.innerHTML = `
             <select class="item_name"> 
                 <option value="0">Select the Option</option>  
-                <option value="20">Dabeli</option>  
-                <option value="100">French Fries</option>
-                <option value="60">Pavbhaji</option>  
+                <option value="25">Dabeli</option>  
+                <option value="70">Pavbhaji</option>  
                 <option value="20">Extra Pav(Jodi)</option>
-                <option value="10">Extra Pav(Single)</option>  
-                <option value="80">Special Pavbhaji</option>
-                <option value="80">Kolhapuri Pavbhaji</option>
-                <option value="50">Only bhaji</option>
-                <option value="70">Masala Pav</option>
+                <option value="10">Extra Pav(Single)</option>
+                <option value="100">French Fries</option>
+                <option value="100">Special Pavbhaji</option>
+                <option value="100">Kolhapuri Pavbhaji</option>
+                <option value="60">Only bhaji</option>
+                <option value="80">Masala Pav</option>
+
+                <optgroup label="Paneer Items">
+                    <option value="90">Panner Manchurian(Half)</option>       
+                    <option value="180">Paneer Manchurian(Full)</option>
+                    <option value="100">Paneer Chilli(Half)</option>
+                    <option value="200">Paneer Chilli(Full)</option>
+                    <option value="100">Paneer 65(Half)</option>
+                    <option value="200">Paneer 65(Full)</option>
+                    <option value="90">Panner Rice(Half)</option>       
+                    <option value="180">Paneer Rice(Full)</option>
+                    <option value="90">Paneer Noodles(Half)</option>       
+                    <option value="180">Paneer Noodles(Full)</option>
+                    <option value="100">Paneer Tadka(Half)</option>
+                    <option value="200">Paneer Tadka(Full)</option>
+                    <option value="140">Panner Triple Rice(Half)</option>       
+                    <option value="280">Paneer Triple Rice(Full)</option>
+                    <option value="140">Paneer Triple Noodles(Half)</option>       
+                    <option value="280">Paneer Triple Noodles(Full)</option>
+                    <option value="110">Paneer Singapur Rice(Half)</option>       
+                    <option value="220">Paneer Singapur Rice(Full)</option>
+                    <option value="110">Panner Singapur Noodles(Half)</option>       
+                    <option value="220">Paneer Singapur Noodles(Full)</option>
+                </optgroup>
 
                 <option value="10">Cold Drink(10)</option>
                 <option value="20">Cold Drink(20)</option>
                 <option value="25">Cold Drink(25)</option>
-                <option value="40">Cold Drink(45)</option>
+                <option value="45">Cold Drink(45)</option>
                 <option value="15">Ice-Cream(15)</option>
                 <option value="20">Ice-Cream(20)</option>
                 <option value="25">Ice-Cream(25)</option>
                 <option value="30">Ice-Cream(30)</option>
                 <option value="35">Ice-Cream(35)</option>
                 <option value="40">Ice-Cream(40)</option>
-                <option value="45">Ice-Cream(45)</option>
-                <option value="50">Ice-Cream(50)</option>
             </select>
             <p class="item_rate">0</p>
             <input type="text" inputmode="numeric" class="item_quantity">
@@ -174,8 +187,6 @@ function addFuntionalityTo(tableNumber){
 for(let tables = 1; tables<=9; tables++){
     addFuntionalityTo(tables);
 }
-
-
 
 
 window.onload = function() {
